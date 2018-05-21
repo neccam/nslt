@@ -1,6 +1,6 @@
 # Neural Sign Language Translation
 
-This repo containts the training and evalution code of Sign2Text for translation sign langauge videos to spoken language sentences. For the other setups, namely Gloss2Text, Sign2Gloss2Text, Sign2Gloss -> Gloss2Text... 
+This repo containts the training and evalution code of Sign2Text setup for translation sign langauge videos to spoken language sentences. 
 
 This code is based on [an earlier version of Luong et al.'s Neural Machine Translation Tutorial](https://github.com/tensorflow/nmt/tree/tf-1.2). 
 
@@ -9,7 +9,6 @@ This code is based on [an earlier version of Luong et al.'s Neural Machine Trans
 * Download and install Tensorflow 1.3.0+ 
 
 ## Usage
-
 
 
 
