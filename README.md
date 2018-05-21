@@ -7,6 +7,7 @@ This code is based on [an earlier version of Luong et al.'s Neural Machine Trans
 ## Requirements
 * Download and extract [RWTH-PHOENIX-Weather 2014 T: Parallel Corpus of Sign Language Video, Gloss and Translation](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/)
 * Download and install Tensorflow 1.3.0+ 
+* Download [AlexNet TensorFlow weights](https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy)
 
 ## Usage
 
