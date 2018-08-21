@@ -5,7 +5,7 @@ This repo containts the training and evalution code of Sign2Text setup for trans
 This code is based on [an earlier version of Luong et al.'s Neural Machine Translation Tutorial](https://github.com/tensorflow/nmt/tree/tf-1.2). 
 
 ## Requirements
-* Download and extract [RWTH-PHOENIX-Weather 2014 T: Parallel Corpus of Sign Language Video, Gloss and Translation](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/)
+* Download and extract [RWTH-PHOENIX-Weather 2014 T: Parallel Corpus of Sign Language Video, Gloss and Translation](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/) and then resize the images to 227x227
 * Download and install Tensorflow 1.3.0+ 
 * Download [AlexNet TensorFlow weights](https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy) and put it under the folder BaseModel
 
