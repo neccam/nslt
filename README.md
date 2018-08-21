@@ -7,16 +7,16 @@ This code is based on [an earlier version of Luong et al.'s Neural Machine Trans
 ## Requirements
 * Download and extract [RWTH-PHOENIX-Weather 2014 T: Parallel Corpus of Sign Language Video, Gloss and Translation](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/)
 * Download and install Tensorflow 1.3.0+ 
-* Download [AlexNet TensorFlow weights](https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy)
+* Download [AlexNet TensorFlow weights](https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/bvlc_alexnet.npy) and put it under the folder BaseModel
 
 ## Usage
 
 ### Training Sample Usage
-python -m nmt --src=sign --tgt=de --train_prefix=Data/phoenix2014T.train --dev_prefix=Data/phoenix2014T.dev --test_prefix=Data/phoenix2014T.test --out_dir=<your_output_dir> --vocab_prefix=phoenix2014T.vocab --source_reverse=True --num_units=1000 --num_layers=4 --num_train_steps=150000 --residual=True --attention=luong --base_gpu=2 --unit_type=gru 
+python -m nmt --src=sign --tgt=de --train_prefix=Data/phoenix2014T.train --dev_prefix=Data/phoenix2014T.dev --test_prefix=Data/phoenix2014T.test --out_dir=<your_output_dir> --vocab_prefix=phoenix2014T.vocab --source_reverse=True --num_units=1000 --num_layers=4 --num_train_steps=150000 --residual=True --attention=luong --base_gpu=<gpu_id> --unit_type=gru 
 
 ### Inference Sample Usage
 
-python -m nmt --out_dir=<your_model_dir> --inference_input_file=<input_video_paths.sign> --inference_output_file=<predictions.de> --inference_ref_file=<ground_truth.de> --base_gpu=2
+python -m nmt --out_dir=<your_model_dir> --inference_input_file=<input_video_paths.sign> --inference_output_file=<predictions.de> --inference_ref_file=<ground_truth.de> --base_gpu=<gpu_id>
 
 
 ## Reference
