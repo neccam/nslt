@@ -74,7 +74,7 @@ def read_video(src, source_reverse):
     video = np.zeros((len(images), 227, 227, 3)).astype(np.float32)
 
     # Cihan_CR: Harcoded Path, Need to Change This
-    mean_image = np.load('/media/Depo/mofo-cihan/Code/NMT/Mean_Calculation/FulFrame_Mean_Image_227x227.npy').astype(np.float32)[..., ::-1]
+    mean_image = np.load('../Mean/FulFrame_Mean_Image_227x227.npy').astype(np.float32)[..., ::-1]
 
     # for each image
     for i in range(0, len(images)):

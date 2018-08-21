@@ -41,7 +41,7 @@ class AlexNet(object):
         self.device_str = device_str
         self.input = source
         self.keep_prob = keep_prob
-        self.weights_path = '/media/Depo/mofo-cihan/Code/NMT/NMT/bvlc_alexnet.npy'
+        self.weights_path = '../BaseModel/bvlc_alexnet.npy'
 
         # Call the create function to build the computational graph of AlexNet
         self.create()
