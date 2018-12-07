@@ -11,8 +11,8 @@ This code is based on [an earlier version of Luong et al.'s Neural Machine Trans
 
 ## Usage
 
-### Training Sample Usage
-python -m nmt --src=sign --tgt=de --train_prefix=Data/phoenix2014T.train --dev_prefix=Data/phoenix2014T.dev --test_prefix=Data/phoenix2014T.test --out_dir=<your_output_dir> --vocab_prefix=phoenix2014T.vocab --source_reverse=True --num_units=1000 --num_layers=4 --num_train_steps=150000 --residual=True --attention=luong --base_gpu=<gpu_id> --unit_type=gru 
+### Training Sample Usage (From nslt folder)
+python -m nmt --src=sign --tgt=de --train_prefix=../Data/phoenix2014T.train --dev_prefix=../Data/phoenix2014T.dev --test_prefix=../Data/phoenix2014T.test --out_dir=<your_output_dir> --vocab_prefix=phoenix2014T.vocab --source_reverse=True --num_units=1000 --num_layers=4 --num_train_steps=150000 --residual=True --attention=luong --base_gpu=<gpu_id> --unit_type=gru 
 
 ### Inference Sample Usage
 
