@@ -370,7 +370,7 @@ def main(unused_argv):
 
 if __name__ == "__main__":
     os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-    os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
     nmt_parser = argparse.ArgumentParser()
     add_arguments(nmt_parser)
