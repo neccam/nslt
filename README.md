@@ -1,6 +1,6 @@
 # Neural Sign Language Translation
 
-This repo containts the training and evalution code of Sign2Text setup for translation sign langauge videos to spoken language sentences. 
+This repo contains the training and evalution code of Sign2Text setup for translation sign langauge videos to spoken language sentences. 
 
 This code is based on [an earlier version of Luong et al.'s Neural Machine Translation Tutorial](https://github.com/tensorflow/nmt/tree/tf-1.2). 
 
