@@ -16,8 +16,7 @@ This code is based on [an earlier version of Luong et al.'s Neural Machine Trans
 python -m nmt --src=sign --tgt=de --train_prefix=../Data/phoenix2014T.train --dev_prefix=../Data/phoenix2014T.dev --test_prefix=../Data/phoenix2014T.test --out_dir=<your_output_dir> --vocab_prefix=../Data/phoenix2014T.vocab --source_reverse=True --num_units=1000 --num_layers=4 --num_train_steps=150000 --residual=True --attention=luong --base_gpu=<gpu_id> --unit_type=gru 
 
 ### Inference Sample Usage
-
-python -m nmt --out_dir=<your_model_dir> --inference_input_file=<input_video_paths.sign> --inference_output_file=<predictions.de> --inference_ref_file=<ground_truth.de> --base_gpu=<gpu_id>
+python -m nmt --out_dir=<your_trained_model_dir> --inference_input_file=../Data/phoenix2014T.test.sign --inference_output_file=../Data/predictions_test.de --vocab_prefix=../Data/phoenix2014T.vocab --inference_ref_file=../Data/phoenix2014T.test.de --base_gpu=<gpu_id>
 
 
 ## Reference
