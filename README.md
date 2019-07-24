@@ -30,3 +30,6 @@ Please cite the paper below if you use this code in your research:
       booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
       year = {2018}
     }
+
+## Acknowledgements
+<sub>This work was funded by the SNSF Sinergia project "Scalable Multimodal Sign Language Technology for Sign Language Learning and Assessment" (SMILE) grant agreement number CRSII2 160811 and the European Union’s Horizon2020 research and innovation programme under grant agreement no. 762021 (Content4All). This work reflects only the author’s view and the Commission is not responsible for any use that may be made of the information it contains. We would also like to thank NVIDIA Corporation for their GPU grant. </sub>
